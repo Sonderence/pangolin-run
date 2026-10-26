@@ -39,7 +39,7 @@ Bushes appear first, flying hazards unlock at 150 points, and curved projectiles
 | First appearance | Biome | Jump | Duck | Block |
 | --- | --- | --- | --- | --- |
 | 0 | Grasslands | Thorn bushes | Eagles | Spears |
-| 1,000 | Cherry blossoms | Raspberry bushes | Snowy owls | Arrows |
+| 1,000 | Cherry blossoms | Japanese paper lanterns | Snowy owls | Arrows |
 | 3,000 | Galaxy | Moon rocks | Flying saucers | Shooting stars |
 | 5,000 | Black & white | Squares | Lasers | Triangles |
 | 8,000 | Grasslands returns | Thorn bushes | Eagles | Spears |
@@ -64,9 +64,11 @@ Thorn bushes, eagles and spears.
 
 ### Cherry blossoms
 
-Raspberry bushes, snowy owls and arrows.
+Japanese paper lanterns, snowy owls and arrows.
 
-![Cherry blossom showcase with raspberry bush, snowy owl and arrow](docs/screenshots/cherry-blossoms.jpg)
+The ground hazard is a red Japanese paper lantern with a dark outline and warm cream ribs for contrast against pink scenery. Jump over it; snowy owls and arrows keep their existing controls.
+
+![Japanese paper lantern artwork](docs/screenshots/paper-lantern.svg)
 
 ### Galaxy
 
