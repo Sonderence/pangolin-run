@@ -66,9 +66,7 @@ Thorn bushes, eagles and spears.
 
 Japanese paper lanterns, snowy owls and arrows.
 
-The ground hazard is a red Japanese paper lantern with a dark outline and warm cream ribs for contrast against pink scenery. Jump over it; snowy owls and arrows keep their existing controls.
-
-![Japanese paper lantern artwork](docs/screenshots/paper-lantern.svg)
+![Cherry blossom showcase with Japanese paper lantern, snowy owl and arrow](docs/screenshots/cherry-blossoms.jpg)
 
 ### Galaxy
 
