@@ -4,9 +4,22 @@ A browser endless runner with a rolling pangolin, original retro pixel artwork, 
 
 [Play the game](https://pangolin-run-sonderence.zippyfairy18.chatgpt.site/)
 
-## Run locally
+## Download and play — no installation
 
-Open `dist/index.html` in a browser. No installation or build step is required. For a local web server, serve the `dist` folder with any static HTTP server.
+**[Download Pangolin Run ZIP](https://github.com/Sonderence/pangolin-run/releases/latest/download/pangolin-run.zip)**
+
+1. Download the ZIP above, or open [Releases](https://github.com/Sonderence/pangolin-run/releases/latest) and choose **pangolin-run.zip** under **Assets**.
+2. **Extract the entire ZIP**: on Windows, right-click it and choose **Extract All**; on macOS, double-click the ZIP.
+3. Open the extracted folder and double-click **index.html** to launch the game in your browser.
+4. Press **Space** or click **Let’s roll** to start.
+
+Keep all the extracted files together. Open the extracted `index.html`, not the file inside the ZIP preview. A `START-HERE.txt` file with these instructions is included.
+
+No account, installation, web server or internet connection is required to play after downloading. Conservation links need internet access. Best-score saving depends on your browser allowing local storage for local files.
+
+### For developers
+
+If you downloaded the repository source ZIP instead of the ready-to-play release, open **dist/index.html**. No build step is required. You can also serve `dist` with any static HTTP server.
 
 ## Controls
 
