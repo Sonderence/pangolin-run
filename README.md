@@ -43,6 +43,30 @@ Open `dist/theme-preview.html?theme=grasslands` through a local server, replacin
 
 Hosted previews: [grasslands](https://pangolin-run-sonderence.zippyfairy18.chatgpt.site/theme-preview?theme=grasslands), [cherry blossoms](https://pangolin-run-sonderence.zippyfairy18.chatgpt.site/theme-preview?theme=blossom), [galaxy](https://pangolin-run-sonderence.zippyfairy18.chatgpt.site/theme-preview?theme=galaxy), [black & white](https://pangolin-run-sonderence.zippyfairy18.chatgpt.site/theme-preview?theme=mono).
 
+### Grasslands
+
+Thorn bushes, eagles and spears.
+
+![Grasslands showcase with thorn bushes, eagle and spear](docs/screenshots/grasslands.jpg)
+
+### Cherry blossoms
+
+Raspberry bushes, snowy owls and arrows.
+
+![Cherry blossom showcase with raspberry bush, snowy owl and arrow](docs/screenshots/cherry-blossoms.jpg)
+
+### Galaxy
+
+Moon rocks, flying saucers and shooting stars.
+
+![Galaxy showcase with moon rocks, flying saucer and shooting star](docs/screenshots/galaxy.jpg)
+
+### Black & white
+
+Squares, lasers and triangles.
+
+![Black-and-white showcase with square, laser and triangle](docs/screenshots/black-and-white.jpg)
+
 ## Source
 
 - `dist/index.html`: main page and sourced conservation information
