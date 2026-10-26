@@ -147,12 +147,12 @@ function galaxyScenery(){rect(0,0,W,H,'#111229');
  rect(0,GROUND,W,H-GROUND,'#55576e');rect(0,GROUND,W,6,'#b7b5d2');rect(0,GROUND+6,W,9,'#75798e');for(let i=0;i<35;i++){const x=((i*83-distance*.8)%1300+1300)%1300,yy=GROUND+24+(i%5)*12;rect(x,yy,24,6,'#3b3e57');rect(x+3,yy+6,18,3,'#76788e')}
 }
 
-function hazardNames(stage=biome()){return stage==='mono'?{thorn:'squares',eagle:'lasers',spear:'triangles'}:stage==='blossom'?{thorn:'raspberry bushes',eagle:'snowy owls',spear:'arrows'}:stage==='galaxy'?{thorn:'moon rocks',eagle:'flying saucers',spear:'shooting stars'}:{thorn:'thorn bushes',eagle:'eagles',spear:'spears'}}
+function hazardNames(stage=biome()){return stage==='mono'?{thorn:'squares',eagle:'lasers',spear:'triangles'}:stage==='blossom'?{thorn:'Japanese paper lanterns',eagle:'snowy owls',spear:'arrows'}:stage==='galaxy'?{thorn:'moon rocks',eagle:'flying saucers',spear:'shooting stars'}:{thorn:'thorn bushes',eagle:'eagles',spear:'spears'}}
 function hazardTip(kind){const names=hazardNames();return kind==='thorn'?'Jump over '+names.thorn+' with SPACE or ↑.':kind==='eagle'?'Hold ↓ or S on the ground to duck under '+names.eagle+'. Jumping will not work.':'Hold B or → on the ground to block '+names.spear+'. They curve toward you; jumping and ducking cannot evade them.'}
 function updateHazardLabels(){const n=hazardNames();$('[data-action="jump"] small').textContent='Clear the '+n.thorn;$('[data-action="duck"] small').textContent='Stay below the '+n.eagle;$('[data-action="block"] small').textContent='Scales up. Stop the '+n.spear+'.';canvas.setAttribute('aria-label','Jump over '+n.thorn+', duck under '+n.eagle+', and block '+n.spear+'. Space to start.')}
 function obstacle(o){const stage=biome();if(stage==='grasslands'){grassObstacle(o);return}if(stage==='mono'){monoObstacle(o);return}
  if(o.kind==='thorn'){
-  if(stage==='blossom')sprite(['....g.g....','..ggggggg..','.ggrgggrgg.','gggrrgrrggg','ggrgggggrgg','gggggrrgggg','.ggrgrrggg.','..ggggggg..'],o.x,GROUND-48,6,{g:'#466543',r:'#c74169'});
+  if(stage==='blossom')sprite(['...ooooo...','..olll llo..'.replace(/ /g,''),'.orrrrrrro.','orhrhrhrhro','orhrhrhrhro','.orrrrrrro.','..ooooooo..','.....t.....'],o.x,GROUND-48,6,{o:'#24212b',r:'#d72f24',h:'#ffe29a',l:'#fff0bf',t:'#7b1820'});
   else sprite(['....ss.....','...shhs....','..shhhs.ss.','.shhddsshs.','shhdddhhhhs','shhdddhdhhs','shdddhddhds','sssssssssss'],o.x,GROUND-48,6,{s:'#4a4667',h:'#aaa2bd',d:'#706985'});
  }else if(o.kind==='eagle'){
   if(stage==='blossom'){const wings=Math.sin(clock*12)>0?['w..........w','www......www','.wwww..wwww.','..wwwwwwww..']:['............','............','wwww....wwww','.wwwwwwwwww.'];sprite([...wings,'...wyee yw...'.replace(/ /g,''),'....wwbww...','.....www....'],o.x,GROUND-129,6,{w:'#f1eee4',y:'#d9bc61',e:'#333b45',b:'#a69b8b'});sprite(['d...d','.d.d.'],o.x+12,GROUND-99,3,{d:'#b7b5ac'})}
